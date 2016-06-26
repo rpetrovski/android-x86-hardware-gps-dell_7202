@@ -5,7 +5,7 @@ How to use:
 To set serial port, add a property "ro.kernel.android.gps" and set it equal to your GPS device file.
 ie. 
 ```
-ro.kernel.android.gps=ttyO1
+ro.kernel.android.gps=ttyS2
 ```
 
 Default baud rate is 9600, to adjust add a property "ro.kernel.android.gpsttybaud" and set it equal to the needed rate. (4800-115200) ie. 
